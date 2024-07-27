@@ -1,0 +1,296 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fafafa;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.span-orange {
+    color: #fd9222;
+}
+
+/* #region Header */
+.header {
+    background: #fafafa;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px; 
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.logo-span {
+    font-style: italic;
+}
+
+.nav {}
+
+.menu {}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.menu-link:hover, .menu-link:focus {
+    color: #fd9222;
+}
+/* #endregion Header */
+
+/* #region Hero */
+.hero-section {
+    background: #1e1823;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px; 
+    line-height: 1.21429;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-button {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background: #fd9222;
+}
+
+.hero-button:hover, 
+.hero-button:focus {
+    background: #fcf1e0;
+    color: #fd9222;
+}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: #fd9222;
+}
+/* #endregion Hero */
+/* #region Benefits */
+.benefits-section {
+    background: #1e1823;
+}
+
+.benefits-title-del {}
+
+.benefits-menu {}
+
+.benefits-item {}
+
+.benefits-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion Benefits */
+/* #region Ingredients */
+    .ingredients-section {}
+    
+    .ingredients-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px; 
+        line-height: 1.16667;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+    }
+    
+    .ingredients-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px; 
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #111;
+    }
+    
+    .ingredients-menu {}
+    
+    .ingredients-item {}
+    
+    .ingredients-item-text-white {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px; 
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    
+    .ingredients-item-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px; 
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #111;
+    }
+/* #endregion Ingredients */
+/* #region How Made */
+.how-section {}
+
+.how-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px; 
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.how-second-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px; 
+    line-height: 1.33333;
+    color: #111;
+}
+
+.how-menu {
+    list-style-type: disc;
+}
+
+.how-item {}
+
+.how-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+/* #endregion How Made */
+/* #region Reviews */
+.review-section {}
+
+.review-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px; 
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.review-menu {}
+
+.review-item {}
+
+.review-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px; 
+    line-height: 1.33333;
+    text-align: center;
+    color: #111;
+}
+
+.review-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.review-button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+/* #endregion Reviews */
+/* #region Footer */
+.footer {
+    background: #1e1823;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px; 
+    line-height: 1.21429;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-address {}
+
+.footer-address-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px; 
+    line-height: 1.28571;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-address-menu {}
+
+.footer-address-item {}
+
+.footer-address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-link-footer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px; 
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.menu-link-footer:hover,
+.menu-link-footer:focus {
+    color: #fd9222;
+}
+/* #endregion Footer */
